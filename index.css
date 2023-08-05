@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+
+.line{
+    background-color: rgb(54, 54, 54);
+    height: 5px;
+    border: none;
+}
+
+.container{
+    height: 680px;
+    position: relative;
+    width: 100%;
+}
+
+#backgroundimg{
+    width: 100vw;
+    height: 680px;
+    opacity: 0.4;
+}
+
+#navbar {
+    background-color: rgba(28, 28, 28, 0.667);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+#name{
+    color: red;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+#options {
+    display: flex;
+    margin: 10px;
+}
+
+.lang{
+    border: px solid white;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10%;
+
+}
+
+#sign{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    width:70px;
+    height: 30px;
+}
+
+#options div {
+    margin-left: 10px;
+}
+
+#main {
+    margin-top: 200px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    width: 100vw;
+}
+
+#main p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+    padding: 10px;
+    width: 100%;
+}
+
+#span-ele {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.email {
+    width: 350px;
+    height: 45px;
+    padding: 8px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 1vmin;
+
+}
+
+
+.btn {
+    height: 45px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 1vh;
+    
+}
+
+
+.flex-items {
+    height: 400px;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.flex-items h1{
+    margin-bottom: 15px;
+}
+
+p {
+    width: 700px;
+    line-height: 1.5rem;
+    font-size: x-large;
+}
+
+section h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.ques-ans-section{
+    cursor: pointer;
+    width: 1300px;
+    margin-left: 100px;
+}
+
+
+
+.question-answer{
+    position: relative;
+}
+
+.questions p{
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.questions {
+    background-color: rgb(55, 53, 53);
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.questions:hover{
+    background-color: gray;
+    transition: .3s;
+}
+
+.questions::before{
+    content: '+';
+    position: absolute;
+    right: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.answers {
+    background-color: rgb(55, 53, 53);
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+    transition: .5s ease;
+    width: 1300px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+
+.showAns .answers{
+    height: 80px;
+    transition: .3s;
+    padding: 5px;
+}
+
+
+.showAns .questions::before{
+    content: '-';
+
+}
+
+
+#membership {
+    text-align: center;
+    padding: 20px;
+}
+
+#membership div {
+    margin-top: 10px;
+}
+
+#footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#footer p {
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+
+#information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#information div {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#netflix{
+    margin-left: 200px;
+}
